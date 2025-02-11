@@ -1,0 +1,1 @@
+# cherry-studio-paper-theme
