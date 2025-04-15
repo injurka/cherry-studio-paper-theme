@@ -61,7 +61,8 @@ body[theme-mode=light]  {
       background: #e6e4de !important;
     }
   }
-  .ant-table-tbody {
+  .ant-table-tbody,
+  .ant-table-placeholder {
     background: #ebeae4 !important;
   }
 
@@ -104,8 +105,10 @@ body[theme-mode=light]  {
   .ant-radio-button-checked {
     background: var(--color-primary-soft) !important;
   }
-  #inputbar {
-    overflow: hidden;  
+  #inputbar.inputbar-container > textarea {
+   background: transparent !important;
+  }
+  #app-sidebar {
+    background-color: var(--navbar-background) !important;
   }
 }
-
